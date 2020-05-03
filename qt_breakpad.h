@@ -12,10 +12,10 @@
 // to avoid breaking other QT headers
 #include <qt_windows.h>
 
-#include "vendor/breakpad/src/client/windows/handler/exception_handler.h"
+#include "client/windows/handler/exception_handler.h"
 
 #elif defined(Q_OS_LINUX)
-#include "vendor/breakpad/src/client/linux/handler/exception_handler.h"
+#include "client/linux/handler/exception_handler.h"
 
 #endif // OS-specific includes
 
